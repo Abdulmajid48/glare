@@ -32,18 +32,7 @@ const Sidebart = () => {
         </div>
         <div>
           {Sidebardisplay.map((item, index) => {
-            const { img, name, username, lastmessage, date }: Sidebarcont =
-              item;
-            return (
-              <Sidebarmessages
-                key={index}
-                img={img}
-                name={name}
-                username={username}
-                lastmessage={lastmessage}
-                date={date}
-              />
-            );
+            return <Sidebarmessages key={index} {...item} />;
           })}
         </div>
       </div>
