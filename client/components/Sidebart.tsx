@@ -113,6 +113,13 @@ const Sidebardisplay: Sidebarcont[] = [
     lastmessage: "Chris Martin reacted with love",
     date: "Dec 15",
   },
+  {
+    img: "/userimg.svg",
+    name: "Suzana Colin",
+    username: "@suzana",
+    lastmessage: "Chris Martin reacted with love",
+    date: "Dec 15",
+  },
 ];
 export default Sidebart;
 export { Sidebarmessages };
