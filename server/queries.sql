@@ -24,3 +24,4 @@ CREATE TABLE Messages(
 INSERT INTO Messages(content, sender_id, recepient_id)
 VALUES ('wertyuioopujlljf;lnhfglhnfgl;n', 1, 2);
 VALUES ('gjhkgjglkhhjkykwertyuioopujlljf;lnhfglhnfgl;n', 1, 3);
+VALUES ('gjhkgjglkhhjkykwertyuioopujlljf;lnhfglhnfgl;n', 1, 3);
